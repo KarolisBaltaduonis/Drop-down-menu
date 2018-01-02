@@ -1,0 +1,90 @@
+body {
+  font-size:14px;
+  font-family: "Open Sans";
+}
+a {
+  color: #2CBCD6;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  width: 900px;
+
+}
+nav {
+  border-bottom: 2px solid #2CBCD6;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  color: lightgrey;
+}
+/*veikia uzvedus pele*/
+header:hover h1 {
+
+}
+/*veikia paspaudus*/
+header:active h1 {
+
+}
+/*naudojamas su anchorais arba formomis*/
+a:focus {
+
+}
+h3 {
+  color: lightblue;
+}
+span {
+  display: block;
+}
+.sub-nav {
+  display: none;
+  margin-top:15px;
+
+
+}
+nav .container > ul > li {
+  display: inline-block;
+
+
+
+}
+nav ul li a {
+  padding: 15px;
+}
+nav .container > ul > li:hover > a {
+  color:white;
+  background-color: #2CBCD6;
+}
+nav ul li:hover .sub-nav {
+  display: block;
+  position: absolute;
+  background-color: #2CBCD6;
+  left: 0;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.sub-nav li a {
+  color:white;
+}
+.sub-nav li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.sub-nav ul {
+padding:0;
+}
+.sub-nav-list {
+  float:left;
+  max-width:100%;
+  width: 50%;
+}
